@@ -23,3 +23,7 @@ Thumbs.db
 
 # Logs: keep bot.log tracked to satisfy assignment
 # (Do not add a global logs/ ignore here.)
+
+# Local artifacts (not needed in repo)
+*.zip
+NUL

@@ -91,6 +91,15 @@ python -m src.cli grid --side SELL --symbol BTCUSDT --levels 5 --lower 68000 --u
 ## Logs
 - All actions are written to `bot.log` in JSON Lines format. Each line contains timestamp, level, action, request/response metadata, and any errors.
 
+## Optional simple UI (interactive CLI)
+Prefer prompts over flags? Run the interactive UI:
+
+```powershell
+python -m src.ui_cli
+```
+
+It will ask for symbol, side, quantity, and which strategy to use (Market/Limit/Stop-Limit/OCO/TWAP/Grid), then submit via the same modules.
+
 ## Files
 - `src/` — core app code (client, validators, CLI, market/limit modules)
 - `advanced/` — advanced strategies (stop-limit, oco, twap, grid)
