@@ -1,0 +1,25 @@
+# Python caches and build artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+*.dist-info/
+
+# Virtual environments
+.venv/
+venv/
+
+# Environment files (do NOT commit secrets)
+.env
+.env.*
+
+# Editors/OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs: keep bot.log tracked to satisfy assignment
+# (Do not add a global logs/ ignore here.)
